@@ -1,0 +1,16 @@
+.parent{
+     display: grid; 
+    grid-template-columns: auto auto auto; 
+    gap: 10px;
+}
+.parent > div{
+    background-color: blueviolet;
+    
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.div one{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
